@@ -30,7 +30,7 @@
         </ul>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="btn btn-white text-brown" href="#">Signup</a>
+            <a class="btn btn-white text-brown" href="signup.html">Signup/login</a>
           </li>
           <li class="nav-item ml-2">
             <a class="btn btn-white text-brown" href="#">Cart</a>
@@ -62,30 +62,165 @@
   <div class="row mt-4 text-center">
     <div class="col-md-4">
       
-      <img src="pasta.jpg" alt="Image 1" class="img-fluid rounded-circle custom-image">
+      <img src="pasta.jpg" alt="Image 1" class="img-fluid rounded-circle custom-image" data-toggle="modal" data-target="#menuModal1">
       <h5 class="image-title">Break Fast</h5>
     </div>
     <div class="col-md-4">
-      <img src="snacks.jpg" alt="Image 2" class="img-fluid rounded-circle custom-image">
+      <img src="snacks.jpg" alt="Image 2" class="img-fluid rounded-circle custom-image" data-toggle="modal" data-target="#menuModal2">
       <h5 class="image-title">Snacks</h5>
     </div>
     <div class="col-md-4">
-      <img src="starters.jpg" alt="Image 3" class="img-fluid rounded-circle custom-image">
+      <img src="starters.jpg" alt="Image 3" class="img-fluid rounded-circle custom-image" data-toggle="modal" data-target="#menuModal3">
       <h5 class="image-title">Starters</h5>
     </div>
     <div class="col-md-4">
-        <img src="biryani.jpg" alt="Image 3" class="img-fluid rounded-circle custom-image">
+        <img src="biryani.jpg" alt="Image 3" class="img-fluid rounded-circle custom-image" data-toggle="modal" data-target="#menuModal4">
         <h5 class="image-title">Rice</h5>
       </div>
       <div class="col-md-4">
-        <img src="noodles.jpg" alt="Image 3" class="img-fluid rounded-circle custom-image">
+        <img src="noodles.jpg" alt="Image 3" class="img-fluid rounded-circle custom-image" data-toggle="modal" data-target="#menuModal5">
         <h5 class="image-title">Chinese</h5>
       </div><div class="col-md-4">
-        <img src="deserts.jpg" alt="Image 3" class="img-fluid rounded-circle custom-image">
+        <img src="deserts.jpg" alt="Image 3" class="img-fluid rounded-circle custom-image" data-toggle="modal" data-target="#menuModal6">
         <h5 class="image-title">Deserts</h5>
       </div>
   </div>
 </div>
+<div class="modal fade" id="menuModal1" tabindex="-1" role="dialog" aria-labelledby="menuModal1Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuModal1Label" style="color: darkred;"> Break Fast Menu</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul style="background-color: black; color: white;">
+          <li>Dosa</li>
+          <li>Masala Dosa</li>
+          <li>Idly</li>
+          <li>Puri</li>
+          <li>Bonda</li>
+          <li>Vada</li>
+          <li>Upma</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="menuModal2" tabindex="-1" role="dialog" aria-labelledby="menuModal2Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuModal2Label" style="color: darkred;">Snacks Menu</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul style="background-color: black; color: white;">
+          <li>Alu Samosa</li>
+          <li>Corn Samosa</li>
+          <li>Vada Pav</li>
+          <li>Alu chat</li>
+          <li>Bhel Puri</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="menuModal3" tabindex="-1" role="dialog" aria-labelledby="menuModal3Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuModal3Label" style="color: darkred;">Starters Menu</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul style="background-color: black; color: white;">
+          <li>Veg Manchuria</li>
+          <li>Chicken Manchuria</li>
+          <li>Paneer Tikka</li>
+          <li>Chicken65</li>
+          <li>Chicken lolipop</li>
+          <li>Fried corn</li>
+          <li>Veg Spring Rolls</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="menuModal4" tabindex="-1" role="dialog" aria-labelledby="menuModal4Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuModal4Label" style="color: darkred;">Rice Menu</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul style="background-color: black; color: white;">
+          <li>Veg Biryani</li>
+          <li>Spl Chicken Briyani</li>
+          <li>Kaju Biryani</li>
+          <li>paneer Biryani</li>
+          <li>Mutton Biryani</li>
+          <li>Dum Chicken Biryani</li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="menuModal5" tabindex="-1" role="dialog" aria-labelledby="menuModal5Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuModal5Label" style="color: darkred;">Chinese Menu</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul style="background-color: black; color: white;">
+          <li>Veg Noodles</li>
+          <li>Chicken Noodles</li>
+          <li>Manchurian Noodles</li>
+          <li>Veg Fried Rice</li>
+          <li>Chicken Fried Rice</li>
+          <li>Manchurian Fried Rice</li>
+          <li>Pasta</li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="menuModal6" tabindex="-1" role="dialog" aria-labelledby="menuModal6Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuModal6Label" style="color: darkred;">Deserts Menu</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul style="background-color: black; color: white;">
+          <li>Brownie</li>
+          <li>Ice Creams</li>
+          <li>cakes</li>
+          <li>Cuk Cakes</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 
